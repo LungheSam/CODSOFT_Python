@@ -1,3 +1,6 @@
+"""
+    ROCK PAPER SCISSORS GAME By Samuel Lunghe
+"""
 import random
 import tkinter as tk
 from tkinter import messagebox
