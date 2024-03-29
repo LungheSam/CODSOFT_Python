@@ -1,3 +1,6 @@
+"""
+    BASIC CALCULATOR By Samuel Lunghe 
+"""
 import math
 
 def addition(a,b):

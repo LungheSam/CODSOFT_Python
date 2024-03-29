@@ -1,3 +1,6 @@
+"""
+    PASSWORD GENERATOR By Samuel Lunghe
+"""
 import random
 class PasswordGenerator:
     def __init__(self):
@@ -7,6 +10,9 @@ class PasswordGenerator:
         for i in range(length):
             password.append(random.choice(self.characters))
         return "".join(password)
+
+
+
 def main(): 
     pwd=PasswordGenerator()
     try: 
